@@ -1,0 +1,104 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial,Helvetica,sans-seriff;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color:coral;
+	color: #fff;
+}
+
+#nav-bar{
+	background-color: #333;
+	color: #fff;
+
+
+}
+#nav-bar ul{
+	padding: 0;
+	list-style: none;
+
+}
+
+#nav-bar li{
+	display: inline;
+
+}
+
+#nav-bar a{
+	color: #fff;
+	text-decoration:none;
+	font-size: 18px;
+	margin-right: 30px;
+
+}
+
+#nav-bar li a:hover{
+	color: green;
+}
+
+#showcase{
+background-image: url('../images/showcase.jpg');
+	background-position: center ;
+	background-attachment: fixed;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+
+#showcase h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+
+}
